@@ -11,6 +11,9 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:
 .brand .logo{width:36px;height:36px;border-radius:50%;background:radial-gradient(circle at 35% 35%, #27a9ff, #0077ff 60%, #002244);box-shadow:0 0 20px #0090ffaa;animation:pulse 4s ease-in-out infinite}
 @keyframes pulse{0%{box-shadow:0 0 8px #0090ff66}50%{box-shadow:0 0 26px #00b7ffaa}100%{box-shadow:0 0 8px #0090ff66}}
 .lang{display:flex;gap:10px}
+.social{display:inline-block;margin-left:12px;vertical-align:middle}
+.social a{margin-left:8px;display:inline-block}
+.social img{display:block;width:24px;height:24px}
 .main{min-height:calc(100vh - 70px);padding:40px 16px;background:linear-gradient(transparent, rgba(0,0,0,.4) 40%, rgba(0,0,0,.7));}
 .hero{display:grid;gap:18px;place-items:center;text-align:center;padding:50px 0}
 .hero h1{font-size:clamp(28px,4vw,48px);margin:0}
